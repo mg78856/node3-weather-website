@@ -114,5 +114,5 @@ app.get('*', (req, res) => {
 //  app.com/about
 
 app.listen(port, () => {
-  console.log('server has started on' + port);
+  console.log('server has started on port ' + port);
 })
